@@ -33,7 +33,7 @@ TEMPLATES = {
 {% endwith %}
 {% block content %}{% endblock %}
 </div></body></html>""",
-}
+
 "login.html": """{% extends "base.html" %}{% block content %}
 <h2>Login</h2>
 <form method="post" action="/login">
