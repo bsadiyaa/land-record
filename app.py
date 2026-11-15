@@ -10,7 +10,6 @@ app.secret_key = "change-this-secret-key"
 db.init_db()
 
 TEMPLATES = {
-    TEMPLATES = {
     "base.html": """<!doctype html>
 <html><head><meta charset="utf-8">
 <title>Land Management System</title>
@@ -34,7 +33,7 @@ TEMPLATES = {
 {% endwith %}
 {% block content %}{% endblock %}
 </div></body></html>""",
-
+}
 "login.html": """{% extends "base.html" %}{% block content %}
 <h2>Login</h2>
 <form method="post" action="/login">
